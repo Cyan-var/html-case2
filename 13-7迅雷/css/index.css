@@ -1,0 +1,139 @@
+/* css reset */
+body, h4{
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #3c3c3c;
+}
+img{
+	vertical-align: top;
+}
+/* main */
+body{
+	font: 12px arial,"宋体";
+}
+.clearfix{
+	zoom: 1;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+#video{
+	margin: 20px auto;
+	width: 969px;
+	border-right: 1px solid #dddddd;
+}
+.item{
+	float: left;
+	width: 162px;
+	border-top: 2px solid #abe27d;
+}
+.item .head{
+	border-left: 1px solid #ddd;
+}
+.head .title{
+	border-top: 1px solid #abe27d;
+	padding-top: 1px;
+	font: 16px/40px "Microsoft Yahei";
+	text-align: center;
+}
+.title .name{
+	color: #7cae4b;
+
+}
+.item .content{
+	padding: 0 11px 6px 10px;
+	border-left: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+}
+.content .hot{
+	border-bottom: 1px dashed #dddddd;
+}
+.hot .subItem{
+	margin-bottom: 6px;
+}
+.subItem .videoWrap{
+	width: 136px;
+	height: 96px;
+	overflow: hidden;
+	display: block;
+	border: 1px solid #dedede;
+	padding: 1px;
+}
+.videoText{
+	height: 26px;
+}
+.videoText .name, .videoText .pixel{
+	float: left;
+	line-height: 24px;
+}
+.videoText .name{
+	font-size: 14px;
+}
+.videoText .pixel{
+	color: #b7b7b7;
+	padding-top: 2px;
+}
+.videoText .icon{
+	float: right;
+	background: url(../img/icon_text.jpg) no-repeat;
+	width: 8px;
+	height: 0;
+	padding-top: 10px;
+	overflow: hidden;
+	margin-top: 7px;
+}
+.content .other{
+	padding-top: 11px;
+}
+.other .videoTag{
+	color: #aaaaaa;
+	line-height: 20px;
+}
+.other .itemList{
+	margin-bottom: 3px;
+}
+#video .tvMan, .tvMan .head, .tvMan .head .title{
+	border-top-color: #e187c4;
+}
+.tvMan .head .name{
+	color: #e187c4;
+}
+#video .tvOn, .tvOn .head , .tvOn .head .title{
+	border-top-color: #a6a6a6;
+}
+.tvOn .head .name{
+	color: #757575;
+}
+#video .tvTVB, .tvTVB .head, .tvTVB .head .title{
+	border-top-color: #7fbfda;
+}
+.tvTVB .head .name{
+	color: #3e9ec8 ;
+}
+#video .tvOver, .tvOver .head, .tvOver .head .title{
+	border-top-color: #e18787;
+}
+.tvOver .head .name{
+	color: #d5212d ;
+}
+#video .tvPop, .tvPop .head, .tvPop .head .title{
+	border-top-color: #e4cd70;
+}
+.tvPop .head .name{
+	color: #bb915f ;
+}
+.tvPop{
+	width: 159px
+}
+.tvPop .content{
+	padding: 0 9px 7px 9px;
+}

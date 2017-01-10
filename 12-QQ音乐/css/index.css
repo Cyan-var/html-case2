@@ -1,0 +1,98 @@
+/* css reset */
+body, h3{
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	vertical-align: top;
+	border: none;
+}
+/* main */
+body{
+	font-size: 12px;
+	font-family: "Arial","宋体";
+}
+.clear{
+	zoom: 1;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+#mvBox{
+	width: 720px;
+	padding: 19px 10px 0 13px;
+	margin: 0 auto;
+}
+.head .title{
+	border-left: 5px solid #ff7800;
+	padding-top: 2px;
+	padding-left: 10px;
+	margin-right: 14px;
+	height: 28px;
+}
+.head .titleShow{
+	background: url(../img/title.jpg) no-repeat;
+	display: block;
+	width: 91px;
+	height: 26px;
+	text-indent: -9999px;
+}
+.head .titleMore{
+	background: url(../img/title_more.jpg) no-repeat;
+	display: block;
+	width: 38px;
+	height: 14px;
+	margin-top: 13px;
+	text-indent: -9999px;
+}
+.head .title, .head .titleMore{
+	float: left;
+}
+.content{
+	padding-top: 18px;
+}
+.content .mvList{
+	float: left;
+	width: 160px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+.mvList .mvShow{
+	display: block;
+}
+.mvList .mvText{
+	padding-top: 5px;
+	line-height: 23px;
+}
+.mvList .mvName{
+	color: #0f820c;
+}
+.mvContro .mvName,.mvContro .mvLine{
+	/*margin-right: -3px;*/
+}
+.mvList .singer{
+	color: #515151;
+}
+.mvText .descrip{
+	color: #8b8b8b;
+	display: block;
+}
+.mvText .onCount{
+	background: url(../img/icon1.jpg) no-repeat 0 6px;
+	padding-left: 15px;
+	color: #a3a3a3;
+	float: left;
+}
+.mvText .mvTime{
+	color: #a3a3a3;
+	float: right;
+}

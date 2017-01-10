@@ -1,0 +1,279 @@
+/* css reset */
+body, h5, h6, p{
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	vertical-align: top;
+	border: none;
+}
+/* gobal */
+body{
+	font: 12px arial,"宋体";
+}
+a{
+	color: #333;
+}
+/* main */
+#box{
+	width: 600px;
+	margin: 30px auto;
+}
+.a_head{
+	line-height: 30px;
+	background-color: #eaf9fe;
+	margin-bottom: 15px;
+}
+.a_title{
+	float: left;
+}
+.a_title a{
+	font-size: 14px;
+	font-weight: blod;
+	color: #333335;
+}
+.a_head_tag{
+	float: right;
+}
+.a_head_tag{
+	margin-right: 11px;
+}
+.a_head_tag a{
+	color: #646665;
+	margin-left: 11px;
+}
+.left_wrap, .wrap{
+	float: left;
+}
+.left_wrap{
+	width: 290px;
+	margin-right: 24px;
+}
+.left_wrap .hot_up{
+	margin-bottom: 6px;
+}
+.left_wrap .up_show{
+	position: relative;
+	width: 290px;
+	height: 230px;
+	overflow: hidden;
+	margin-bottom: 6px;
+}
+.left_wrap .hot_on{
+	position: absolute;
+	left: 10px;
+	bottom: 24px;
+	width: 58px;
+	height: 0;
+	overflow: hidden;
+	padding-top: 56px;
+	background: url(../img/on.jpg) no-repeat;
+}
+.left_wrap .up_info{
+	line-height: 18px;
+}
+.left_wrap .up_title{
+	font: bold 14px/18px arial,"宋体";
+	color: #333;
+	margin-bottom: 5px;
+}
+.up_count a, .up_count span{
+	padding-left: 18px;
+	float: left;
+}
+.up_count .up_tv{
+	background: url(../img/icon_user.png) no-repeat 0 2px;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+}
+.up_count span{
+	margin-left: 13px;
+	color: #918f92;
+}
+.up_count .count_on{
+	background: url(../img/icon_on.png) no-repeat 0 4px;
+}
+.up_count .count_com{
+	background: url(../img/icon_ms.png) no-repeat 0 4px;
+}
+.news_wrap .news_list{
+	line-height: 20px;
+	padding-left: 7px;
+	background: url(../img/dot.jpg) no-repeat 0;
+}
+.news_wrap{
+	margin-bottom: 5px;
+}
+.news_list .n_link{
+	color: #343434;
+}
+.l_bt_tag{
+	line-height: 20px;
+}
+.l_bt_tag .bt_tag{
+	color: #919191;
+}
+.l_bt_tag .bt_tag_type{
+	color: #343434;
+}
+
+.wrap{
+	width: 285px;
+}
+.clearfix{
+	zoom: 1;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+/* main */
+.con_right{
+	margin-right: -29px;
+}
+
+.con_r_item{
+	float: left;
+	margin: 0 29px 8px 0;
+	width: 128px;
+	position: relative;
+}
+.con_r_item:hover .detail{
+	display: block;
+	z-index: 1;
+}
+.con_r_item .show_box{
+	display: block;
+	width: 128px;
+	height: 80px;
+	overflow: hidden;
+}
+.mask .bg{
+	/*width: 100%;*/
+	height: 17px;
+	background-color: #000;
+	opacity: .5;
+}
+.con_r_item .up_wrap{
+	position: relative;
+	margin-bottom: 7px;
+}
+.con_r_item .mask{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.mask .text{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	line-height: 17px;
+	color: #fff;
+}
+.mask .text_con{
+	padding-left: 1px;
+}
+.mask .px_icon{
+	position: absolute;
+	right: 4px;
+	top: 1px;
+	width: 25px;
+	height: 0;
+	padding-top: 14px;
+	overflow: hidden;
+}
+.mask .px_icon_g{
+	background: url(../img/icon_px.png) no-repeat;
+}
+.mask .px_icon_s{
+	background: url(../img/icon_cq.png) no-repeat;
+}
+.mask .mask_link{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 17px;
+}
+.con_r_item .bt_info{
+	line-height: 18px;
+	display: block;
+}
+.con_r_item .info_count span{
+	float: left;
+	color: #91918f;
+	padding-left: 18px;
+}
+.info_count .count_on{
+	background: url(../img/icon_on.png) no-repeat 0 3px;
+	margin-right: 3px;
+}
+.info_count .count_com{
+	background: url(../img/icon_ms.png) no-repeat 0 3px;
+}
+.con_r_item .detail{
+	display: none;
+	position: absolute;
+	right: -298px;
+	top: -68px;
+	width: 288px;
+	height: 198px;
+}
+.detail .bg_shadow{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background: #000;
+	opacity: .4;
+	width: 280px;
+	height: 191px;
+}
+.detail .info_wrap{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 260px;
+	height: 152px;
+	padding: 8px 9px 29px;
+	border: 1px solid #909090;
+	background-color: #fff;
+}
+.detail .title{
+	font: bold 14px/22px arial,"宋体";
+	color: #004ecc;
+}
+.d_info_text{
+	line-height: 20px;
+	color: #909090;
+}
+.d_info_text .intro{
+	margin-bottom: 5px;
+}
+.d_info_text .count_info{
+	float: left;
+	width: 130px;
+}
+.d_info_text .count{
+	margin-bottom: 5px;
+}
+.d_info_text .cl_ty{
+	float: left;
+	margin-right: 20px;
+}
+.cl_program a{
+	color: #004dcb;
+}
+.cl_type a{
+	color: #000;
+}

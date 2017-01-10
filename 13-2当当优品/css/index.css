@@ -1,0 +1,87 @@
+/* css reset */
+body{
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+img{
+	vertical-align: top;
+	border: none;
+}
+a{
+	text-decoration: none;
+	color: #404040;
+}
+/* main */
+body{
+	font-size: 12px;
+	font-family: "arial","宋体";
+}
+.clearfix{
+	zoom: 1;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.box{
+	width: 941px;
+	border-top: 1px solid #05a790;
+	margin: 20px auto;
+}
+.shop .item{
+	float: left;
+	border: 1px solid #dfdedd;
+	border-top: none;
+	width: 217px;
+	padding: 11px 0 0 17px;
+	margin-right: -1px;
+	background: url(../img/item_bg.jpg) repeat-x 0 bottom;
+}
+.item .shopWrap, .item .shopName{
+	margin-right: 17px;
+}
+.item .shopWrap{
+	display: block;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	margin-bottom: 6px;
+}
+.shopInfo .shopName{
+	display: block;
+	line-height: 18px;
+	padding-left: 5px;
+	word-break: break-all;
+	margin-bottom: 2px;
+}
+.shopInfo .shopPrice{
+	font: bold 16px/22px arial,"宋体";
+	color: #cc0000;
+	display: block;
+}
+.shopInfo .shopIcon{
+	font-family: "Microsoft Yahei";
+}
+.shopPrice .shopIcon{
+	margin-right: -7px;
+}
+.shopDec .lastPrice{
+	float: left;
+	line-height: 16px;
+}
+.lastPrice .shopIcon{
+	margin-right: -6px;
+}
+.shopDec .buy{
+	float: right;
+	line-height: 22px;
+	width: 30px;
+	height: 22px;
+	padding-left: 26px;
+	background: url(../img/icon_bg.jpg) no-repeat;
+}

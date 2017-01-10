@@ -1,0 +1,128 @@
+/* css reset */
+body, dl, dd{
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+/* global */
+body{
+	font: 12px arial,"宋体";
+}
+a{
+	color: #16387c;
+}
+.clearfix{
+	zoom: 1;
+}
+.clearfix:after{
+	content: "";
+	display: none;
+	clear: both;
+}
+.fl{
+	float: left;
+}
+/* main */
+.list{
+	width: 148px;
+	margin: 20px auto;
+	border: 1px solid #cad5de;
+	border-top: none;
+}
+.list .list_head{
+	border-top: 1px solid #7b0099;
+}
+.list .list_head{
+	padding-left: 11px;
+	height: 32px;
+	line-height: 32px;
+	background: #f9f6fa url(../img/head_bg.png) repeat-x 0 1px;
+}
+.list .ico_logo{
+	margin-top: 8px;
+}
+.list_index .ico_logo{
+	width: 23px;
+	height: 17px;
+	overflow: hidden;
+	background: url(../img/icons.png) no-repeat 0 -36px;
+	margin-right: 9px;
+}
+.list_item{
+	position: relative;
+	padding-left: 14px;
+	height: 30px;
+	line-height: 30px;
+	background: #fff url(../img/icons.png) no-repeat;
+}
+.list_hot .list_link{
+	color: #ff7800;
+}
+.list_item .ico_logo{
+	width: 17px;
+	height: 18px;
+	overflow: hidden;
+	margin-right: 13px;
+}
+.list_item .ico_next{
+	position: absolute;
+	left: 130px;
+	top: 50%;
+	margin-top: -3px;
+	width: 4px;
+	height: 7px;
+	overflow: hidden;
+	background: url(../img/icons.png) no-repeat 0 -58px;
+}
+.list_inform .ico_logo{
+	background: url(../img/icons.png) no-repeat -29px -36px;
+}
+.list_finance .ico_logo{
+	background: url(../img/icons.png) no-repeat -47px -36px;
+}
+.list_amoues .ico_logo{
+	background: url(../img/icons.png) no-repeat -65px -36px;
+}
+.list_sports .ico_logo{
+	background: url(../img/icons.png) no-repeat -83px -36px;
+}
+.list_fashtion .ico_logo{
+	background: url(../img/icons.png) no-repeat -101px -36px;
+}
+.list_tour .ico_logo{
+	background: url(../img/icons.png) no-repeat -119px -36px;
+}
+.list_car .ico_logo{
+	background: url(../img/icons.png) no-repeat -137px -36px;
+}
+.list_science .ico_logo{
+	background: url(../img/icons.png) no-repeat -155px -36px;
+}
+.list_pub .ico_logo{
+	background: url(../img/icons.png) no-repeat -173px -36px;
+}
+.list_book .ico_logo{
+	background: url(../img/icons.png) no-repeat -191px -36px;
+}
+.list_affair .ico_logo{
+	background: url(../img/icons.png) no-repeat -209px -36px;
+}
+.list_culture .ico_logo{
+	background: url(../img/icons.png) no-repeat -227px -36px;
+}
+.list_social .ico_logo{
+	background: url(../img/icons.png) no-repeat -245px -36px;
+}
+.list_forum .ico_logo{
+	background: url(../img/icons.png) no-repeat -263px -36px;
+}
+.list_know .ico_logo{
+	background: url(../img/icons.png) no-repeat -281px -36px;
+}
+.list_test .ico_logo{
+	background: url(../img/icons.png) no-repeat -299px -36px;
+}
+.list_group .ico_logo{
+	background: url(../img/icons.png) no-repeat -317px -36px;
+}

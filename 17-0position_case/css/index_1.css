@@ -1,0 +1,35 @@
+body{
+	margin: 0;
+}
+div{
+	width: 100px;
+	height: 100px;
+	border: 1px solid #f40;
+}
+.box{
+	position: relative;
+}
+.box1{
+	/*left: 50px;
+	top: 50px;*/
+}
+.box2{
+	left: 51px;
+	top: -51px;
+}
+.box3{
+	left: 101px;
+	top: -101px;
+}
+.box4{
+	left: 151px;
+	top: -151px;
+}
+.box5{
+	left: 201px;
+	top: -201px;
+}
+.box:hover{
+	z-index: 1;
+	background-color: #eee;
+}

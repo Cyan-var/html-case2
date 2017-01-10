@@ -1,0 +1,86 @@
+/* css reset */
+body, h3{
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;	
+}
+a{
+	text-decoration: none;
+	color: #1a1a1a;
+}
+img{
+	vertical-align: top;
+	border: none;
+}
+/* main */
+body{
+	font: 12px "Microsoft Yahei";
+}
+.clearfix{
+	zoom: 1;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.box{
+	width: 640px;
+	padding: 16px 19px 5px;
+	border: 1px solid #d9d9d9;
+	margin: 20px auto;
+}
+.box .head{
+	margin-bottom: 6px;
+	padding-right: 5px;
+}
+.head .title, .head .tvNav{
+	float: left;
+}
+.head .title{
+	margin-right: 14px;
+}
+.head .more{
+	float: right;
+	line-height: 38px;
+	background: url(../img/icon_next.jpg) no-repeat right 17px;
+	padding-right: 13px;
+}
+.title .titleShow{
+	background: url(../img/title.jpg) no-repeat;
+	display: block;
+	width: 86px;
+	height: 0;
+	padding-top: 26px;
+	overflow: hidden;
+}
+.head .tvNav{
+	line-height: 40px;
+	font-size: 14px;
+}
+.box .tvWrap{
+	margin-right: -20px;
+}
+.tvNav .navItem{
+	float: left;
+	margin-right: 18px;
+}
+.tvWrap .item{
+	width: 112px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 11px;
+}
+.item .tvItem{
+	display: block;
+	width: 112px;
+	height: 149px;
+	overflow: hidden;
+}
+.item .tvName{
+	display: block;
+	line-height: 30px;
+}

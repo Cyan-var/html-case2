@@ -1,0 +1,90 @@
+/* css reset */
+body{
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	vertical-align: top;
+	border: none;
+}
+/* main */
+body{
+	font: 14px/36px "Microsoft Yahei";
+} 
+.clearfix{
+	zoom: 1;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+#box{
+	background: url(../img/all_bg.jpg) no-repeat;
+	padding: 43px 76px 73px 61px;
+}
+.wrap{
+	width: 260px;
+	float: left;
+	margin-right: 34px;
+}
+.color_b{
+	background: #15b7dd;
+}
+.color_p{
+	background-color: #e15671;
+}
+.color_w{
+	background-color: #fff;
+}
+.color_w a{
+	color: #333;
+}
+.color_b a, .color_p a{
+	color: #fff;
+}
+.color_b .list{
+	border-bottom: 1px solid #5ccce7;
+}
+.wrap .list{
+	padding: 11px 0 10px;
+}
+.list .option{
+	display: block;
+	padding-left: 48px;
+}
+
+.color_w .op_next{
+	background: url(../img/ico_next_b.png) no-repeat 232px;
+}
+.color_w .select_right{
+	background: url(../img/ico_right_b.png) no-repeat 20px;
+}
+.color_b .select_open{
+	background: url(../img/ico_round_b.png) no-repeat 20px;
+}
+.color_b .op_next, .color_p .op_next{
+	background: url(../img/ico_next.png) no-repeat 232px;
+}
+.color_b .select_right, .color_p .select_right{
+	background: url(../img/ico_right.png) no-repeat 20px;
+}
+.color_b .select_open, .color_p .select_open{
+	background: url(../img/ico_round.png) no-repeat 20px;
+}
+.color_b .option:hover{
+	background-color: #333;
+}
+.color_p .option:hover{
+	background-color: #e7788d;
+}
+.color_w .option:hover{
+background-color: #f6f6f6;
+}

@@ -1,0 +1,131 @@
+/* css reset */
+body, h3{
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+img{
+	vertical-align: top;
+	border: none;
+}
+a{
+	text-decoration: none;
+}
+/* main */
+body{
+	font-size: 14px;
+	font-family: "arial","宋体";
+}
+.clear{
+	zoom: 1;
+}
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.box{
+	width: 333px;
+	padding: 25px 15px 0px 19px;
+	margin: 20px auto;
+}
+.head .title, .head .iconBox{
+	float: left;
+}
+.head .titleBox{
+	background: url(../img/title_bg.jpg) no-repeat;
+	display: block;
+	width: 110px;
+	height: 26px;
+}
+.head .title{
+	height: 28px;
+	border-left: 5px solid #8bcc00;
+	padding-top: 2px;
+	padding-left: 10px;
+	margin-right: 9px;
+}
+.head .songsClass{
+	float: right;
+	line-height: 30px;
+}
+.head .iconA{
+	float: left;
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+}
+.head .iconOn{
+	background: url(../img/head_on.jpg) no-repeat;
+}
+.head .iconAdd{
+	background: url(../img/head_add.jpg) no-repeat;
+}
+.head .songsItem{
+	color: #0f820c; 
+	font-size: 12px;
+}
+.head .itemOn{
+	color: #333333;
+}
+.head .songsItem, .head .line{
+	float: left;
+}
+.head .line{
+	display: block;
+	width: 1px;
+	height: 12px;
+	background-color: #d8d8d8;
+	margin: 10px 8px 0 7px;
+}
+.box .listWrap{
+	line-height: 34px;
+	padding-top: 11px;
+	text-align: right;
+}
+.listWrap .songsList{
+	padding-top: 1px;
+	border-bottom: 1px solid #fff;
+}
+.listWrap .songsCon{
+	float: left;
+}
+.songsList .songsTime{
+	color: #8b8b8b;
+}
+.songsName{
+	color: #0f820c;
+}
+.iconLine{
+	color: #8b8b8b;
+}
+.songsList .singer{
+	color: #515151; 
+}
+.songsList .onIcons{
+	float: right;
+	display: none;
+}
+.onIcons .iconsItem{
+	display: block;
+	float: left;
+}
+.onIcons .iconsItem{
+	margin-left: 6px;
+}
+.onIcons .iconsShow{
+	padding-top: 12px;
+}
+.songsList:hover{
+	border-bottom: 1px dotted #e1e1e1;
+}
+.songsList:hover .songsTime{
+	display: none;
+}
+.songsList:hover .onIcons{
+	display: block;
+}

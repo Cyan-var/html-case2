@@ -1,0 +1,164 @@
+/* css reset */
+body, h4{
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+img{
+	vertical-align: top;
+	border: none;
+}
+/* gobal */
+body{
+	font: 12px "宋体";
+	color: #3c3c3c;
+}
+.clearfix{
+	zoom: 1;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+/* main */
+/* head */
+#box{
+	width: 1015px;
+	margin: 20px auto;
+}
+.head{
+	padding: 12px 0 11px 0;
+}
+.title, .ewm{
+	float: left;
+}
+.title{
+	width: 62px;
+	margin-right: 4px;
+}
+.titie_link{
+	display: block;
+	height: 00px;
+	padding-top: 20px;
+	overflow: hidden;
+	background: url(../img/title_bg.jpg) no-repeat;
+}
+.ewm{
+	width: 13px;
+	height: 0px;
+	padding-top: 14px;
+	margin-top: 7px;
+	overflow: hidden;
+	background: url(../img/ewm_bg.jpg) no-repeat;
+	cursor: pointer;
+}
+/* content */
+.list, .more{
+	float: left;
+}
+.pic{
+	float: left;
+	width: 148px;
+	height: 180px;
+	position: relative;
+	margin-right: 12px;
+}
+.mask{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 25px;
+}
+.mask .bg{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 25px;
+	background-color: #fff;
+	opacity: .6;
+}
+.mask .text{
+	position: absolute;
+	left: 0;
+	top: 0;
+	line-height: 24px;
+	padding-top: 1px;
+	color: #3c3c3c;
+	width: 100%;
+	text-align: center;
+}
+.more{
+	margin-left: 3px;
+	position: relative;
+	width: 180px;
+	padding: 0 15px 0 17px;
+}
+.more .pic{
+	width: 180px;
+	margin-right: 0;
+}
+.icon{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	height: 12px;
+	margin-top: -6px;
+}
+/*
+.icon .ico_wrap{
+	position: absolute;
+	width: 10px;
+	height: 0;
+	padding-top: 12px;
+	overflow: hidden;
+}
+.ico_pre{
+	background: url(../img/ico_pre.jpg) no-repeat;
+	left: 0;
+}
+.ico_next{
+	background: url(../img/ico_next.jpg) no-repeat;
+	right: 0;
+}
+*/
+.ico_wrap{
+	position: absolute;
+	width: 20px;
+	height: 12px;
+	overflow: hidden;
+}
+.ico_pre{
+	left: -9px;
+}
+.ico_pre i{
+	position: absolute;
+	top: -4px;
+	border: 10px solid transparent;
+}
+.ico_pre .pre_b{
+	border-right-color: #c5c5c5;
+}
+.ico_pre .pre_w{
+	left: 4px;
+	border-right-color: #fff;
+}
+.ico_next{
+	right: -9px;
+}
+.ico_next i{
+	position: absolute;
+	top: -4px;
+	border: 10px solid transparent;
+}
+.ico_next .next_b{
+	border-left-color: #c5c5c5;
+}
+.ico_next .next_w{
+	left: -4px;
+	border-left-color: #fff;
+}

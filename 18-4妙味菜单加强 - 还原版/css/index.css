@@ -1,0 +1,57 @@
+/* css reset */
+body{
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/* global */
+body{
+	font: 14px "宋体";
+	background-color: #f0f0f0;
+}
+a{
+	color: #f06000;
+}
+.clearfix{
+	zoom: 1;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.nav{
+	width: 500px;
+	height: 41px;
+	margin: 20px auto;
+	border-bottom: 1px solid #333;
+}
+.nav_item{
+	position: relative;
+	left: 1px;
+	float: left;
+	border-bottom: 1px solid #333;
+}
+.nav_link{
+	position: relative;
+	left: -1px;
+	display: block;
+	padding: 0 15px 2px;
+	line-height: 38px;
+	border: 1px solid #0000f0;
+	border-bottom: none;
+	margin-right: -1px;
+}
+.nav_item:hover{
+	border-bottom-color: #f0f0f0;
+}
+.nav_item:hover .nav_link{
+	border-color: #333;
+	z-index: 1;
+}

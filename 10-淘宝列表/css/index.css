@@ -1,0 +1,61 @@
+body, h4{
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+h4{
+	font-weight: normal;
+}
+a{
+	text-decoration: none;
+}
+.wrap{
+	width: 1189px;
+	margin: 30px auto;
+	font-size: 0;
+}
+.wrap .item{
+	width: 169px;
+	height: 365px;
+	padding: 1px 14px 0;
+	border: 1px solid #888;
+	font-size: 12px;
+	display: inline-block; /* 目标显示在同一行 */
+	vertical-align: top; /* 解决使用display:inline-block;产生的盒子下沉问题 */
+	margin-right: -1px; /* 盒子右边框重叠 */
+}
+.head .headTitle{
+	font: bold 16px/40px "Microsoft Yahei";
+	display: inline-block;
+	margin-right: -1px;
+}
+.headTitle .titleName{
+	color: #3c3c3c;
+}
+.head .headEwm{
+	vertical-align: text-bottom;
+}
+.hot{
+	margin-bottom: 13px;
+}
+.hot .hotShow{
+	vertical-align: top;
+}
+.hot .hotText{
+	background-color: #f5f5f5;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 4px;
+	line-height: 19px;
+}
+.hotText .hotTitle{
+	color: #3c3c3c;
+	font-weight: bold;
+	display: block;
+}
+.hotText .hotDes{
+	color: #9c9c9c;
+}

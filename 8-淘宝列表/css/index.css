@@ -1,0 +1,161 @@
+body, h4, p{
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	vertical-align: top;
+	border: none;
+}
+#box{
+	padding: 30px;
+}
+.wrap{
+	width: 1187px;
+	height: 363px;
+	border: 1px solid #e8e8e8;
+	font-size: 0;
+}
+.wrap .item{
+	width: 169px;
+	height: 363px;
+	padding: 1px 14px 0 14px;
+	border-right: 1px solid #e8e8e8;
+	display: inline-block;
+	vertical-align: top;
+}
+.item h4{
+	font-size: 0;
+}
+.item a{
+	font: 12px "宋体";
+	color: #333;
+}
+.item h4 a{
+	font: bold 16px/40px "宋体";
+	color: #000;
+}
+.item h4 img{
+	margin-left: 6px;
+	margin-top: 16px;
+	width: 12px;
+	height: 12px;
+}
+.item .b_shop{
+	width: 169px;
+	height: 150px;
+	background-color: #f5f5f5;
+	font: 12px/19px "宋体";
+	text-align: center;
+	margin-bottom: 13px;
+}
+.item .imgA{
+	display: block;
+	margin-bottom: 8px;
+}
+.b_shop img{
+	width: 169px;
+	height: 100px;
+}
+.b_shop .text1{
+	font: bold 12px/19px "宋体";
+	color: #646464;
+}
+.b_shop .text2{
+	color: #9c9c9c; 
+	margin-bottom: 4px;
+}
+.item .s_shop{
+	font-size: 0;
+}
+.item .s_shop a{
+	font: 12px/25px "宋体";
+}
+.s_shop .s_item{
+	width: 80px;
+	display: inline-block;
+	text-align: center;
+}
+.s_item img{
+	
+}
+.s_shop .right_mar{
+	margin-right: 9px;
+}
+.item .s_type{
+	font-size: 0;
+	line-height: 25px;
+}
+.item .s_type a{
+	font: 12px "宋体";
+}
+.s_type .line{
+	display: inline-block;
+	width: 1px;
+	height: 12px;
+	background-color: #e1e1e1;
+	margin-left: 5px;
+	margin-right: 6px;
+}
+.s_type a, .s_type .line{
+	vertical-align: middle;
+}
+.item .hot_type{
+	font-size: 0;
+}
+.hot_type a, .hot_type span{
+	line-height: 26px;
+}
+.hot_type span{
+	font-size: 12px;
+}
+.hot_type a{
+	color: #ff4400;
+	margin: 0 2px;
+}
+.hot_type .con{
+	color: #e6e6e6;
+}
+.hot_type .hot_attr{
+	margin-left: 8px;
+}
+.wrap .item_end{
+	border-right: none;
+}
+.hotBox{
+	width: 147px;
+	height: 70px;
+	border: 1px solid #eee;
+	padding: 10px;
+	margin-bottom: 6px;
+	background: #fff url(../img/hot.jpg) no-repeat;
+}
+.hotBox .hotText, .hotBox .hotImg{
+	display: inline-block;
+	vertical-align: top;
+}
+.hotBox .hotText{
+	text-align: right;
+	margin-right: 10px;
+	padding-top: 13px;
+	width: 67px;
+}
+.hotText a, .hotText p{
+	line-height: 17px;
+}
+.hotText a{
+	font-size: 14px;
+}
+.hotText p{
+	font-size: 12px;
+	color: #6c6c6c;
+}
+.hotImg a{
+	display: block;
+}

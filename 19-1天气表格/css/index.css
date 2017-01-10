@@ -1,0 +1,71 @@
+/* css reset */
+body{
+	margin: 0;
+}
+table{
+	border-collapse: collapse;
+}
+th, td{
+	padding: 0;
+}
+img{
+	vertical-align: top;
+}
+/* main */
+body{
+	font: 12px arial,"宋体";
+	background-color: #ebeff7;
+}
+table, th, td{
+	border: 1px solid #99b0da;
+}
+table{
+	margin: 20px auto;
+}
+#weather{
+	text-align: center;
+}
+#weather td{
+	background-color: #fff;
+}
+.mid{
+	width: 95px;
+}
+.day_nigit{
+	width: 76px;
+}
+.dn_show{
+	width: 63px;
+}
+.w_text{
+	width: 115px;
+}
+.mid_s{
+	width: 94px;
+}
+.hot{
+	color: #e54600;
+}
+.cold{
+	color: #000065;
+}
+.tem_num{
+	font-weight: bold;
+}
+#weather .mid_blank{
+	height: 4px;
+	background-color: #ebeff7;
+}
+#weather .date_bg{
+	background-color: #f4f7fc;
+}
+.date_weekend{
+	color: #cc0000;
+}
+#weather th{
+	height: 30px;
+	background-color: #dbe3fa; 
+}
+#weather td{
+	height: 28px;
+}

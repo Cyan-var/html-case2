@@ -1,0 +1,77 @@
+/* css reset */
+body{
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+img{
+	vertical-align: top;
+	border: none;
+}
+/* gobal*/
+body{
+	font: 12px arial,"宋体";
+}
+.clearfix{
+	zoom: 1;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+#wrap{
+	width: 430px;
+	margin: 20px auto;
+}
+.box{
+	margin-right: -10px;
+}
+.item{
+	float: left;
+	margin-right: 10px;
+}
+.item_s{
+	width: 135px;
+}
+.pic{
+	position: relative;
+	float: left;
+	overflow: hidden;
+}
+.pic_s{
+	width: 135px;
+	height: 135px;
+	margin-bottom: 10px;
+}
+.pic_m{
+	width: 135px;
+	height: 136px;
+}
+.pic_l{
+	width: 140px;
+	height: 280px;
+}
+.mask{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 28px;
+}
+.mask .bg{
+	position: absolute;
+	width: 100%;
+	height: 28px;
+	background-color: #ff4100;
+	opacity: .6;
+}
+.mask .text{
+	position: absolute;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	line-height: 26px;
+	padding-top: 2px;
+}

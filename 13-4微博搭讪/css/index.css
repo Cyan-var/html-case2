@@ -1,0 +1,144 @@
+/* css reset */
+body, h5{
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+img{
+	vertical-align: top;
+	border: none;
+}
+a{
+	text-decoration: none;
+	color: #0a8cd2;
+}
+/* main */
+body{
+	font: 12px arial,"宋体";
+	color: #333;
+}
+.clearfix{
+	zoom: 1;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+#box{
+	width: 680px;
+	margin: 20px auto;/* 居中 */
+}
+#box .head{
+	padding-top: 4px;
+	margin-bottom: 7px;
+}
+.head .title{
+	font: normal 12px/28px arial,"宋体";
+	float: left;
+}
+.head .icon{
+	float: right;
+}
+#box .refer{
+	margin-right: -10px;
+}
+.icon .iconBox{
+	float: left;
+	width: 20px;
+	height: 18px;
+	padding: 1px;
+	border: 1px solid #cccccc;
+	background-color: #fff;
+}
+.icon .iconShow{
+	display: block;
+	width: 20px;
+	height: 18px;
+	text-indent: -9999px;
+}
+.iconPre .iconShow{
+	background: #f2f2f2 url(../img/icon_pre.jpg) no-repeat 6px 3px;
+}
+.iconNext .iconShow{
+	background: #f2f2f2 url(../img/icon_next.jpg) no-repeat 6px 3px;
+}
+.icon .iconPre{
+	margin-right: 10px;
+}
+.refer .item{
+	float: left;
+	margin: 0 10px 10px 0;
+	width: 313px;
+	height: 120px;
+	padding: 10px;
+	background-color: #f3f3f3;
+	border: 1px solid #e6e6e6;
+}
+.infoLeft, .detail{
+	float: left;
+	line-height: 20px;
+}
+.refer .infoHead{
+	width: 80px;
+	height: 80px;
+	overflow: hidden;
+	margin-bottom: 12px;
+	display: block;
+}
+.infor .infoLeft{
+	margin-right: 10px;
+	width: 80px;
+}
+.detail .name{
+	font-weight: bold;
+	line-height: 14px;
+	margin-bottom: 3px;
+}
+.detail .privi{
+	background: url(../img/icon_power.jpg) no-repeat;
+}
+.detail .vip, .detail .privi{
+	margin-left: 5px;
+	width: 16px;
+	height: 0px;
+	padding-top: 13px;
+	overflow: hidden;
+	display: none;
+}
+.detail .vipOn{
+	display: block;
+}
+.detail .priviOn{
+	display: block;
+}
+.detail .vip{
+	background: url(../img/icon_vip.jpg) no-repeat;
+}
+.detail .name, .detail .privi, .detail .vip{
+	float: left;
+}
+.detail .tag{
+	color: #808080;
+	display: block;
+}
+.item .follow{
+	width: 50px;
+	height: 18px;
+	padding: 1px;
+	background-color: #ffb33b;
+	border: 1px solid #ff9b00;
+	margin: 0 auto;
+}
+.follow .followAdd{
+	display: block;
+	width: 31px;
+	height: 18px;
+	color: #fff;
+	line-height: 18px;
+	background: #ff9b00 url(../img/icon_add.jpg) no-repeat 8px 4px;
+	padding-left: 19px;
+}

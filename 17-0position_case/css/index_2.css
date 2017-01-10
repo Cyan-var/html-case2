@@ -1,0 +1,43 @@
+body{
+	margin: 0;
+}
+.wrap{
+	position: relative;
+	border: 1px solid #333;
+	width: 320px;
+	height: 320px;
+	margin: 20px auto;
+}
+.box{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: #eee;
+	font: 12px/100px "宋体";
+	text-align: center;
+}
+.box1{
+	left: 10px;
+	top: 10px;
+}
+.box2{
+	right: 10px;
+	top: 10px;
+}
+.box3{
+	left: 50%;
+	top: 50%;
+	margin-left: -50px;
+	margin-top: -50px;
+}
+.box4{
+	left: 10px;
+	bottom: 10px;
+}
+.box5{
+	right: 10px;
+	bottom: 10px;
+}
+.box:hover{
+	background-color: #ddd;
+}

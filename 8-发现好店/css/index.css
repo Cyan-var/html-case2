@@ -1,0 +1,110 @@
+body, h1, h4{
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+img{
+	vertical-align: top;
+	border: none;
+}
+a{
+	text-decoration: none;
+}
+#all{
+	background-color: #f7f7f7;
+	padding-bottom: 26px;
+	border-bottom: 1px solid #e8e8e8;
+}
+#all .wrap{
+	margin: 0 auto;
+	width: 260px;
+	/*height: 680px;*/
+}
+.head{
+	font-size: 0;
+}
+.wrap .head{
+	background-color: #f7f7f7;
+	height: 24px;
+	padding-bottom: 14px;
+}
+#logo{
+	padding-top: 4px;
+}
+#logo, #logo a{
+	display: inline-block;
+}
+#logo, #logo a, #logo img{
+	width: 90px;
+	height: 20px;
+}
+.head .sTitle{
+	font: 12px/26px "Microsoft Yahei";
+	color: #6c6c6c;
+	vertical-align: top;
+	margin-left: 10px;
+}
+.wrap .content{
+	width: 258px;
+	/*height: 603px;*/
+	background-color: #fff;
+	border-left: 1px solid #e8e8e8;
+	border-right: 1px solid #e8e8e8;
+}
+.content .item{
+	border-top: 1px solid #e8e8e8;
+	padding: 5px 4px 16px 14px;
+}
+.item_title a{
+	font: bold 14px/34px "Microsoft Yahei";
+	color: #444;
+}
+.item .item_detail{
+	font-size: 0;
+	padding-bottom: 11px;
+}
+.item_detail a{
+	color: #6c6c6c;
+	font: 12px "宋体";
+	padding-left: 10px;
+	padding-right: 6px;
+	border-right: 1px solid #eaeaea;
+}
+.item_detail .item_detail_f{
+	padding-left: 0;
+}
+.item_detail .item_detail_e{
+	border-right: none;
+}
+.item_imgBox{
+	font-size: 0;
+}
+.item_imgBox .imgwrap{
+	display: inline-block;
+	margin-right: 10px;
+}
+.item_imgBox .imgwrap a{
+	display: block;
+}
+.item_imgBox .imgwrap img{
+	width: 70px;
+	height: 70px;
+}
+.wrap .change{
+	width: 260px;
+	height: 34px;
+	padding-top: 4px;
+	background-color: #e9e9e9;
+}
+.change a{
+	background: url(../img/new_bg.jpg) no-repeat 0 center;
+	font: 12px/34px "宋体";
+	display: block;
+	width: 60px;
+	padding-left: 24px;
+	color: #6c6c6c;
+	margin: 0 auto;
+}
